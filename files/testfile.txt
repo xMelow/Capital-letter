@@ -1,0 +1,6 @@
+dit is een string niet in upper case
+
+test 
+
+test
+
