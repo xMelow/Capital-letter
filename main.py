@@ -1,6 +1,15 @@
+"""
+TODO TAB?
+TODO spaces?
+TODO read string in list 
+TODO change string to upper
+TODO change letter to upper
+TODO read index ('#', ' ', '-')
+"""
+
 import re
 
-file_place = "files/mdfile.md"
+file_place = "Capital-letter/files/mainfile.txt"
 
 f = open(file_place, 'r+')
 

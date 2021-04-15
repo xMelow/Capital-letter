@@ -1,6 +1,12 @@
-dit is een string niet in upper case
+# Header 1
 
-test 
+hallo my name is xMelow
+ - Games
+ - programmeren
 
-test
+i am 18 years old
 
+I study computer sience 
+
+# header 2
+this is added with python

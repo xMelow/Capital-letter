@@ -1,6 +1,4 @@
 """ 
-TODO TAB?
-
 if string_list[[0]] == lower
     string_list[[0]].to_upper
 
@@ -26,25 +24,30 @@ with open(filename, 'r+') as f:
     f.write(text)
     f.truncate()
 
-"""
-import re
-
-file_place = "files/testfile.txt"
-
-f = open(file_place, 'r+')
-txt = f.read()
-
-txt_list = list(txt)
-
-txt[3] = "E"
+    for i in txt_list:
+    y = 0
+    print("we are in the for each lus")
+    while y < len(txt_list):
+         txt_list[[y]].upper()
+         y += 1
 
 
-print(txt)
-
-""" s = list("hello world")
+s = list("hello world")
 print(s)
 
 s[2] = 'E'
 print(s)
 
-print("".join(s)) """
+print("".join(s))
+
+"""
+import re
+
+file_place = "Capital-letter/files/testfile.txt"
+
+with open(file_place, 'r+') as f:
+    txt = f.read()
+    txt_list = list(txt)
+    
+
+
